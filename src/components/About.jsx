@@ -7,7 +7,7 @@ function About() {
     <Box sx={{
         width : "100vw",
         padding : "20px",
-        marginY : "4rem"
+        marginY : "2rem"
     }}>
         <Box display={"flex"} gap={3}>
             <Box className="about--page" sx={{

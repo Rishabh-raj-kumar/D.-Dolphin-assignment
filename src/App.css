@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+@font-face {
+    font-family: 'AdeisplayBold';
+    src: url('../public/assets/fonts/NeuePlak-SemiBold.ttf');
+}
+
 *{
     margin:  0;
     padding: 0;
@@ -55,7 +60,7 @@ body{
 }
 
 .grid--mansoory{
-    font-family: "Inter",sans-serif;
+    font-family: "AdeisplayBold";
     display:  grid;
     grid-template-areas: 'box1 box1 box2 box3'
                          'box1 box1 box4 box5';
@@ -63,6 +68,9 @@ body{
 .grid--mansoory > div{
     border: 1px solid white;
 }
+/* .grid--mansoory > div > h1{
+    font-family: "Adeisplay";
+} */
 .grid--mansoory .box1{
     grid-area: box1;
 }

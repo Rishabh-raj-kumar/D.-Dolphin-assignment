@@ -30,7 +30,7 @@ function Brand() {
             justifyContent: "flex-end",
           }}
         >
-          <Box sx={{ position: "relative" }}>
+          <Box sx={{ position: "relative",left : "15%" }}>
             <img
               style={{
                 width: "50%",
@@ -60,11 +60,11 @@ function Brand() {
       >
         <Box sx={{ minWidth : "100vw", position: "relative", minHeight : "100vh" }}>
         <img
-              className=" absolute top-0 left-0 block w-80 h-3/5"
+              className=" absolute top-0 left-0 block  w-96 h-3/5"
               src="/assets/pic10.png"
             />
             <img
-              className=" absolute top-20 left-20 block w-80 h-3/5"
+              className=" absolute top-20 left-20 block w-96 h-3/5"
               src="/assets/pic15.png"
             />
         </Box>
